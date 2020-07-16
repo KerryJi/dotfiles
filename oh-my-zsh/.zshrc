@@ -115,4 +115,5 @@ export RSYNC_PROXY=$http_proxy
 echo -e "已开启代理" 
 }
 
+eval $(cd && .tspkg/bin/tsp --env)
 
