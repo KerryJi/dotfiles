@@ -93,17 +93,6 @@ source $ZSH/my-shortkey
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH="/home/jkj/opensouce/pycharm-edu-3.5.1/bin:$PATH"
-
-export PATH="/home/jkj/python/anaconda2/bin:$PATH"
-export LIBRARY_PATH="/usr/local/lib/avt_sdk_lib:$LIBRARY_PATH"
-
-
-alias rcscodegen="java -jar /usr/local/bin/CodeGenCmdLine.jar"
-export LD_LIBRARY_PATH="/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH"
-export PYTHONPATH="/home/jkj/caffe/caffe-ssd/python:$PYTHONPATH"
-
-export CAFFE_ROOT="/home/jkj/caffe/caffe-ssd"
 #alias python=/usr/bin/python
 function proxy_off(){ 
 unset http_proxy 
@@ -127,8 +116,3 @@ echo -e "已开启代理"
 }
 
 
-source /opt/ros/kinetic/setup.zsh
-source ~/catkin_workspace/devel_isolated/setup.zsh
-#source ~/catkin_ws/devel/setup.zsh
-export OPENNI2_INCLUDE=/home/jkj/opensource/OpenNI-Linux-x64-2.2/Include
-export OPENNI2_REDIST=/home/jkj/opensource/OpenNI-Linux-x64-2.2/Redist
